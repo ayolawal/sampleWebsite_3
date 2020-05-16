@@ -1,0 +1,177 @@
+
+/* Title Section Formatting */
+
+.title-section {
+  background-color: #ff4c68;
+  /* background-color: #00909e; */
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1020px) {
+  #title {
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Features Section Formatting */
+
+#features {
+  position: relative;
+  background-color: #fff;
+  }
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-family: Montserrat-Light;
+  font-size: 1.2rem;
+}
+
+.navigation-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.download-icon {
+  margin-right: 15px;
+  margin: 20px 20px 20px 0;
+}
+
+h1 {
+  font-family: Montserrat-bold;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+h2 {
+  font-family: Montserrat-bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: Montserrat-bold;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.feature-section {
+  padding: 5% 15%;
+}
+
+.feature-box {
+  padding: 4.5%;
+  text-align: center;
+}
+
+.icon {
+  font-size: 4em;
+  color: #ef8172;
+  /* color: #100303; */
+  /* color: #00909e; */
+  margin-bottom: 0.3em;
+}
+
+.icon:hover {
+  color: #f40552;
+}
+
+.feature-text {
+  color: #8f8f8f;
+}
+
+.colored-section {
+  background-color: #ef8172;
+  /* background-color: #00909e; */
+}
+
+.carousel-item {
+  text-align: center;
+  color: #fff;
+  padding: 7% 20%;
+}
+
+.carousel-indicators {
+  padding: 0 18px;
+  margin-bottom: 30px;
+}
+
+.testimonial-text {
+  font-family: Montserrat-bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-section {
+  background-color: #ef8172;
+/* background-color: #00909e; */
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.white-section {
+  text-align: center;
+  font-family: Montserrat;
+  padding: 7% 10%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: Montserrat-bold;
+}
+
+.section-cta {
+  background-color:  #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: Montserrat-bold;
+  color: #fff;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
